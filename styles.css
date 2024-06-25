@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top:20px;
+    flex-direction: column;
+}
+
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px; /* 16 squares * 40px each */
+    height: 640px; /* 16 squares * 40px each */
+    border: 2px solid black;
+}
+
+.square {
+    border: 1px solid black; /* Optional: to see the grid better */
+    box-sizing: border-box;
+}
+
+button{
+    margin-bottom:20px;
+    padding:10px 20px;
+    font-size:16px;
+}
+
+.hovered{
+    background-color: aqua;
+}
